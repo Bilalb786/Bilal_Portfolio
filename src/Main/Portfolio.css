@@ -1,0 +1,345 @@
+nav {
+    background: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+
+.sticky-nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: rebeccapurple !important;
+}
+body {
+    overflow-x: hidden
+}
+.aos-init:not(.aos-animate):after {
+    position: fixed;
+    }
+body.on-scroll nav.fixed {
+    top: 0;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background: #CCCCCC;
+    color: #333333;
+    padding-left: 25px;
+}
+
+nav.fixed {
+    position: fixed;
+    top: -80px;
+    left: 0;
+    right: 0;
+    z-index: 8888;
+    transition: 0.3s top cubic-bezier(.3, .73, .3, .74);
+    background: rebeccapurple !important
+}
+
+nav li a {
+    text-transform: uppercase;
+}
+
+nav .brand-logo {
+    padding-left: 50px;
+}
+
+ul:not(.browser-default) {
+    padding-right: 50px;
+}
+
+.btn-floating.btn-large {
+    width: 150px;
+    height: 150px;
+    padding: 0;
+}
+
+.btn,
+.btn-large,
+.btn-small {
+    background: rebeccapurple !important;
+    width: 150px;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+.social-ic {
+    margin-top: -40px;
+}
+
+i.gs {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #4c4c4c;
+    padding: 0.5em 0.6em;
+    background: rebeccapurple;
+    margin: 0 3px;
+    width: 50px;
+    color: #ffffff;
+}
+.pgs div.col.s12{
+    padding-top: 6px;
+}
+.about-info h4 {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 85%;
+    }.stellarnav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 993px) {
+    .navigation {
+        visibility: hidden;
+    }
+    .section8{
+        min-height: 900px;
+    }
+}
+
+
+@media only screen and (min-width: 800px) {
+#about,
+#skill,
+#experience,
+#education,
+#contact,
+#footer {
+    min-height: 90px !important; 
+}}
+@media only screen and (min-width: 400px) {
+  
+    .section8{
+        min-height: 900px;
+    }
+}
+.stellarnav.mobile {
+    position: fixed;
+}
+
+.infor {
+    padding-top: 50px
+}
+
+.abt {
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.about {
+    padding: 5px 30px;
+}
+
+#about,
+#skill,
+#experience,
+#education,
+#contact,
+#footer {
+    min-height: 50px;
+}
+
+.skill-heading h3 {
+    color: black;
+    font-weight: bold;
+}
+
+
+/* .progress-name {
+  padding: 10px 0;
+} */
+
+.skil {
+    padding-top: 10px;
+}
+
+.box,
+.min-t00 {
+    min-height: 200px;
+}
+
+.box .m3 {
+    background: rebeccapurple;
+}
+
+.exp-left {
+    background: rebeccapurple;
+    min-height: 200px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+.exp-left-exp {
+    background: rebeccapurple;
+    min-height: 253px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+.exp-right {
+    min-height: 200px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-head {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-body {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+i.sg {
+    display: inline-block;
+    border-radius: 60px;
+    padding: 0.5em 0.6em;
+    width: 50px;
+    color: grey;
+}
+
+.space {
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+h4 {
+    text-transform: uppercase;
+}
+.form-box .about {
+    text-transform: uppercase;
+}
+.dfle {
+display: flex;
+justify-content: center;
+}
+.dfle-1 {
+    display: flex;
+
+}
+.right-side {
+    font-family: serif;
+    display: flex;
+    flex-direction: column;
+    padding: 30px !important;
+}
+
+.stellarnav.dark {
+    background: rebeccapurple;
+}
+.stellarnav.mobile.dark ul {
+    background: rebeccapurple;
+}
+
+.summary{
+    text-transform: capitalize;
+    font-size: 16px;
+    text-align: justify;
+    padding: 0 23px;
+}
+.progress .determinate {
+    background-color : rebeccapurple;
+}
+.progress {
+    background-color: #c9a1f1;
+}
+.personal {
+    padding: 0 23px;
+
+}
+ul:not(.browser-default) {
+    padding: 0 !important;
+}
+/* .list ul:not(.browser-default)>li {
+    list-style-type: disc;
+} */
+/* 
+.list li:before {
+    content: "\f245";
+    padding-right: 5px;
+    font-family: 'FontAwesome';
+    color: rebeccapurple;
+  }  */
+  .list li {
+    padding: 7px 10px;
+  }
+
+#skills li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f164";
+    display: inline-block;
+    color: rebeccapurple;
+    vertical-align: middle;
+    font-weight: 900;
+    padding: 5px 20px;
+}
+
+.list li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f120";
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+    color: rebeccapurple;
+    padding-right: 17px;
+}
+.list li, #skills li {
+    text-transform: capitalize;
+}
+.intro h3{
+    color: rebeccapurple;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.intro p {
+    text-align: justify;
+}
+.github-project {
+    font-size: 28px;
+    color: rebeccapurple;
+}
+.card-action {
+    text-align: center;
+    padding: 0;
+}
+.nothing {
+    color: #fff;
+}
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+  }
+
+  .d-flex {
+      display: flex;
+  }

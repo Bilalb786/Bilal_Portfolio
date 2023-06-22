@@ -1,0 +1,327 @@
+nav {
+	background: none!important;
+	box-shadow: none!important
+}
+
+body {
+	overflow-x: hidden
+}
+
+.aos-init:not(.aos-animate):after {
+	position: fixed
+}
+
+body.on-scroll nav.fixed {
+	top: 0
+}
+
+nav {
+	position: relative;
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	background: #ccc;
+	color: #333;
+	padding-left: 25px
+}
+
+nav.fixed {
+	position: fixed;
+	top: -80px;
+	left: 0;
+	right: 0;
+	z-index: 8888;
+	transition: top .3s cubic-bezier(.3, .73, .3, .74);
+	background: #639!important
+}
+
+nav li a {
+	text-transform: uppercase
+}
+
+nav .brand-logo {
+	padding-left: 50px
+}
+
+ul:not(.browser-default) {
+	padding-right: 50px
+}
+
+.btn-floating.btn-large {
+	width: 150px;
+	height: 150px;
+	padding: 0
+}
+
+.btn,
+.btn-large,
+.btn-small {
+	background: #639!important;
+	width: 150px
+}
+
+h3 {
+	color: #fff
+}
+
+.social-ic {
+	margin-top: -40px
+}
+
+i.gs {
+	display: inline-block;
+	border-radius: 60px;
+	box-shadow: 0 0 2px #4c4c4c;
+	padding: .5em .6em;
+	background: #639;
+	margin: 0 3px;
+	width: 50px;
+	color: #fff
+}
+
+.pgs div.col.s12 {
+	padding-top: 6px
+}
+
+.about-info h4 {
+	font-size: 23px;
+	font-weight: 700;
+	text-align: center
+}
+
+@media only screen and (min-width:993px) {
+	.container {
+		width: 85%
+	}
+	.stellarnav {
+		display: none
+	}
+}
+
+@media only screen and (max-width:993px) {
+	.navigation {
+		visibility: hidden
+	}
+	.section8 {
+		min-height: 900px
+	}
+}
+
+@media only screen and (min-width:800px) {
+	#about,
+	#contact,
+	#education,
+	#experience,
+	#footer,
+	#skill {
+		min-height: 90px!important
+	}
+}
+
+@media only screen and (min-width:400px) {
+	.section8 {
+		min-height: 900px
+	}
+}
+
+.stellarnav.mobile {
+	position: fixed
+}
+
+.infor {
+	padding-top: 50px
+}
+
+.abt,
+.bold {
+	font-weight: 700
+}
+
+.about {
+	padding: 5px 30px
+}
+
+#about,
+#contact,
+#education,
+#experience,
+#footer,
+#skill {
+	min-height: 50px
+}
+
+.skill-heading h3 {
+	color: #000;
+	font-weight: 700
+}
+
+.skil {
+	padding-top: 10px
+}
+
+.box,
+.min-t00 {
+	min-height: 200px
+}
+
+.box .m3 {
+	background: #639
+}
+
+.exp-left {
+	min-height: 200px!important
+}
+
+.exp-left,
+.exp-left-exp {
+	background: #639;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff
+}
+
+.exp-left-exp {
+	min-height: 253px!important
+}
+
+.exp-right {
+	min-height: 200px!important;
+	display: flex;
+	flex-direction: column;
+	justify-content: center
+}
+
+.contact-head {
+	font-size: 20px;
+	font-weight: 700
+}
+
+.contact-body {
+	font-size: 18px;
+	line-height: 25px
+}
+
+i.sg {
+	display: inline-block;
+	border-radius: 60px;
+	padding: .5em .6em;
+	width: 50px;
+	color: grey
+}
+
+.space {
+	margin-bottom: 40px
+}
+
+.form-box .about,
+.space,
+h4 {
+	text-transform: uppercase
+}
+
+.dfle {
+	justify-content: center
+}
+
+.dfle,
+.dfle-1,
+.right-side {
+	display: flex
+}
+
+.right-side {
+	font-family: serif;
+	flex-direction: column;
+	padding: 30px!important
+}
+
+.stellarnav.dark,
+.stellarnav.mobile.dark ul {
+	background: #639
+}
+
+.summary {
+	text-transform: capitalize;
+	font-size: 16px;
+	text-align: justify;
+	padding: 0 23px
+}
+
+.progress .determinate {
+	background-color: #639
+}
+
+.progress {
+	background-color: #c9a1f1
+}
+
+.personal {
+	padding: 0 23px
+}
+
+ul:not(.browser-default) {
+	padding: 0!important
+}
+
+.list li {
+	padding: 7px 10px
+}
+
+#skills li:before {
+	content: "\f164";
+	padding: 5px 20px
+}
+
+#skills li:before,
+.list li:before {
+	font-family: "Font Awesome 5 Free";
+	display: inline-block;
+	color: #639;
+	vertical-align: middle;
+	font-weight: 900
+}
+
+.list li:before {
+	content: "\f120";
+	padding-right: 17px
+}
+
+#skills li,
+.list li {
+	text-transform: capitalize
+}
+
+.intro h3 {
+	color: #639;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: 30px;
+	font-weight: 500
+}
+
+.intro p {
+	text-align: justify
+}
+
+.github-project {
+	font-size: 28px;
+	color: #639
+}
+
+.card-action {
+	text-align: center;
+	padding: 0
+}
+
+.nothing {
+	color: #fff
+}
+
+
+/*# sourceMappingURL=main.f6491fd7.chunk.css.map */
+/* html{scroll-behavior:smooth} */
+
